@@ -53,12 +53,9 @@ export default {
 <style lang="scss">
 .text-bubble {
     z-index: 9999;
-    -webkit-box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.1);
-    background: hsla(0, 0%, 100%, 0.6);
     padding: 5px 10px 5px 10px;
-    border-radius: 10px;
+    color: ghostwhite;
+    text-shadow: 3px 3px 3px black;
 }
 
 .author {
@@ -74,7 +71,7 @@ export default {
     left: 10px;
     top: 10px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
 }
 
@@ -83,7 +80,7 @@ export default {
     left: 10px;
     bottom: 10px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 
     a:not(:last-child) {
         padding-right: 10px;
@@ -91,10 +88,10 @@ export default {
 }
 
 a {
-    color: lighten(black, 20%);
+    color: ghostwhite;
 }
 a:hover {
-    color: black;
+    color: lighten(grey, 10%);
 }
 
 .fade-enter-active,
