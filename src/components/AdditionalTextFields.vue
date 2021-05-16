@@ -103,4 +103,27 @@ a:hover {
  {
     opacity: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .author {
+        font-size: 20px;
+    }
+    .link-list {
+        font-size: 20px;
+    }
+    .app-title {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .author {
+        font-size: 15px;
+    }
+    .link-list {
+        font-size: 15px;
+    }
+    .app-title {
+        font-size: 25px;
+    }
+}
 </style>

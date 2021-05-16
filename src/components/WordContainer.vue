@@ -80,10 +80,22 @@ export default {
         max-width: 80%;
     }
     .word {
-        font-size: 120px;
+        font-size: 80px;
     }
     .word-definition {
-        font-size: 30px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .word-card {
+        max-width: 80%;
+    }
+    .word {
+        font-size: 50px;
+    }
+    .word-definition {
+        font-size: 20px;
     }
 }
 </style>
