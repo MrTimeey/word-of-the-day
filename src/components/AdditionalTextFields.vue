@@ -1,6 +1,6 @@
 <template>
     <transition-group name="fade">
-        <div :key="'title'" class="app-title text-bubble" v-if="isMounted" @click="$store.dispatch('loadQuote')">
+        <div :key="'title'" class="app-title text-bubble" v-if="isMounted" @click="$store.dispatch('loadWord')">
             Word of the Day
         </div>
 
