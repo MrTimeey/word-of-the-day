@@ -18,7 +18,7 @@ export default new Vuex.Store({
     actions: {
         async loadWord({ commit }) {
             commit('setData', {});
-            let response = await axios.get('https://ts-coding.de/api/random/de');
+            let response = await axios.get('https://word-of-the-day.de/api/random/de');
             commit('setData', response.data);
         },
     },
