@@ -16,7 +16,7 @@ export default {
   components: { AdditionalTextFields, WordContainer },
   data() {
     return {
-      image: "https://source.unsplash.com/YLSwjSy7stw/1920x1125",
+      image: "https://source.unsplash.com/PyUXxFrYweY/1920x1125",
     };
   },
   computed: {
