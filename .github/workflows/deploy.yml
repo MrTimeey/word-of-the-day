@@ -17,5 +17,4 @@ jobs:
           username: 'MrTimeey'
           reponame: 'word-of-the-day'
           token: ${{ secrets.GITHUB_TOKEN }}
-          node-version: 16
 
